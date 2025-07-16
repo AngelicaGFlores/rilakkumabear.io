@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 25px;
+  background-image: url("https://cdn.glitch.com/32c1d140-94fe-426a-aad6-537bd27f998f%2Fheart-3135047_640.png?v=1572936685090");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3{
+  font-family: 'Press Start 2P';
+}
+
+/* message h3{
+  font-family: 'Press Start 2P', cursive;
+} */
+header {
+  border-bottom: 1px solid black;
+  font-family: "Chewy", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  color: #2498D3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  padding-top: 25px;
+  border-top: 1px solid black;
+}
+
+footer a {
+  float: left;
+  margin: 5px;
+}
+
+.pet-image {
+  height: 250px;
+}
+
+.dashboard div {
+  display: block;
+}
+
+.pet-image-container {
+  padding: 16px;
+}
+
+.dashboard {
+  margin:auto;
+  padding: 20px;
+  background-color: #E5FBFF;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  font-size: 15px;
+  background-color: #E4BAFF;
+  border-color: #404853;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(246, 246, 246, 0.1) 0%,
+    rgba(30, 40, 53, 0) 66%
+  );
+  color: #401B4E;
+}
+
+// I wanted to create a message image (positoin relative) to have another message div that would display the text (position absolute, centered)
